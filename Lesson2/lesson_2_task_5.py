@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 month_to_season_as_str = input ("Номер месяца : ")
 month_to_season = int(month_to_season_as_str)
 

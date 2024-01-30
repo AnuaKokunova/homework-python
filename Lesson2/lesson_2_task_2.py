@@ -1,9 +1,9 @@
-is_year_leap = int(input("Введите год :"))
+# -*- coding: utf-8 -*-
 
-if is_year_leap // 4 :
-    print (True)
+is_year_leap = int(input("Введите год :"))
+print (is_year_leap)
+if is_year_leap %4 == 0 :
+    print('True')
 
 else :
-    print(False)
-
-   
+    print ('Fasle')
