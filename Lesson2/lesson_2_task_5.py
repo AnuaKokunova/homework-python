@@ -16,4 +16,5 @@ elif (month_to_season == 6 or month_to_season == 7 or month_to_season == 8 ) :
 elif (month_to_season == 9 or month_to_season == 10 or month_to_season == 11) :
     print ("Осень")
 
-
+else :
+    print("False")

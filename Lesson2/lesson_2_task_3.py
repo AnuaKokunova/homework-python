@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 import math
 
-side = math.ceil(input("Сторона квадрата :"))
-square=int(side*side)
+side =float(input("Сторона квадрата :"))
+square=(side*side)
+
 print (side)
-print (square)
+print math.ceil(square)
 
